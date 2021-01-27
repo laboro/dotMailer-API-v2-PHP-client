@@ -13,7 +13,7 @@ namespace DotMailer\Api\DataTypes;
  * Class ApiContactData
  *
  * @property XsString key
- * @property Mixed value
+ * @property MixedType value
  *
  */
 final class ApiContactData extends JsonObject
@@ -23,7 +23,7 @@ final class ApiContactData extends JsonObject
     {
         return array(
             'Key' => 'XsString',
-            'Value' => 'Mixed'
+            'Value' => 'MixedType'
         );
     }
 

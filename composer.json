@@ -27,7 +27,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=7.4.0",
         "ext-json": "*",
         "romanpitak/php-rest-client": ">=v1.2"
     },

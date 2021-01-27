@@ -15,7 +15,7 @@ namespace DotMailer\Api\DataTypes;
  * @property XsString name
  * @property ApiDataTypes type
  * @property ApiDataFieldVisibility visibility
- * @property Mixed defaultValue
+ * @property MixedType defaultValue
  */
 final class ApiDataField extends JsonObject
 {
@@ -26,7 +26,7 @@ final class ApiDataField extends JsonObject
             'Name' => 'XsString',
             'Type' => 'ApiDataTypes',
             'Visibility' => 'ApiDataFieldVisibility',
-            'DefaultValue' => 'Mixed'
+            'DefaultValue' => 'MixedType'
         );
     }
 

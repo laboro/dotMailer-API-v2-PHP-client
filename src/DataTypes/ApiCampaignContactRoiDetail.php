@@ -16,7 +16,7 @@ namespace DotMailer\Api\DataTypes;
  * @property XsString email
  * @property XsString markerName
  * @property ApiRoiDetailDataTypes dataType
- * @property Mixed value
+ * @property MixedType value
  * @property XsDateTime dateEntered
  *
  */
@@ -30,7 +30,7 @@ final class ApiCampaignContactRoiDetail extends JsonObject
             'Email' => 'XsString',
             'MarkerName' => 'XsString',
             'DataType' => 'ApiRoiDetailDataTypes',
-            'Value' => 'Mixed',
+            'Value' => 'MixedType',
             'DateEntered' => 'XsDateTime'
         );
     }

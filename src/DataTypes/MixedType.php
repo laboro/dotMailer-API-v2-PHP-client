@@ -8,7 +8,7 @@
 
 namespace DotMailer\Api\DataTypes;
 
-class Mixed implements IDataType
+class MixedType implements IDataType
 {
 
     private $value;
