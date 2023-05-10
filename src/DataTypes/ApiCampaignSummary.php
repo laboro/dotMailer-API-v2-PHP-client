@@ -64,6 +64,10 @@ namespace DotMailer\Api\DataTypes;
  * @property XsDouble PercentageSoftBounces
  * @property XsDouble PercentageUsersClicked
  * @property XsDouble PercentageClicksToOpens
+ * @property XsString Revenue
+ * @property XsDouble ConversionRate
+ * @property XsString AssistedRevenue
+ * @property XsInt NumOrders
  */
 final class ApiCampaignSummary extends JsonObject
 {
@@ -122,7 +126,11 @@ final class ApiCampaignSummary extends JsonObject
             'PercentageHardBounces' => 'XsDouble',
             'PercentageSoftBounces' => 'XsDouble',
             'PercentageUsersClicked' => 'XsDouble',
-            'PercentageClicksToOpens' => 'XsDouble'
+            'PercentageClicksToOpens' => 'XsDouble',
+            'Revenue' => 'XsString',
+            'ConversionRate' => 'XsDouble',
+            'AssistedRevenue' => 'XsString',
+            'NumOrders' => 'XsInt'
         );
     }
 
