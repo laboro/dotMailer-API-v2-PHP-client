@@ -130,7 +130,7 @@ final class ApiCampaignSummary extends JsonObject
             'Revenue' => 'XsString',
             'ConversionRate' => 'XsDouble',
             'AssistedRevenue' => 'XsString',
-            'NumOrders' => 'XsInt',
+            'NumOrders' => 'XsInt'
         );
     }
 
