@@ -24,6 +24,7 @@ namespace DotMailer\Api\DataTypes;
  * @property XsString replyToAddress
  * @property XsBoolean isSplitTest
  * @property ApiCampaignStatuses status
+ * @property XsString customReplyToAddress
  */
 final class ApiCampaign extends JsonObject
 {
@@ -42,6 +43,7 @@ final class ApiCampaign extends JsonObject
             'ReplyToAddress' => 'XsString',
             'IsSplitTest' => 'XsBoolean',
             'Status' => 'ApiCampaignStatuses',
+            'CustomReplyToAddress' => 'XsString',
         );
     }
 

@@ -68,6 +68,7 @@ namespace DotMailer\Api\DataTypes;
  * @property XsDouble ConversionRate
  * @property XsString AssistedRevenue
  * @property XsInt NumOrders
+ * @property XsInt NumAssistedOrders
  */
 final class ApiCampaignSummary extends JsonObject
 {
@@ -130,7 +131,8 @@ final class ApiCampaignSummary extends JsonObject
             'Revenue' => 'XsString',
             'ConversionRate' => 'XsDouble',
             'AssistedRevenue' => 'XsString',
-            'NumOrders' => 'XsInt'
+            'NumOrders' => 'XsInt',
+            'NumAssistedOrders' => 'XsInt',
         );
     }
 
